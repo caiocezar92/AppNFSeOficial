@@ -1,0 +1,27 @@
+<po-page-detail
+  p-title="Detalhes da Empresa"
+  (p-back) = "voltar()" 
+  (p-edit) = "editar()" 
+  (p-remove) = "remover()" >
+
+  <!-- INCLUSÃO DO GRID SYSTEM -->
+  <div class="po-row">
+
+    <po-info class="po-sm-12 po-md-2"
+    p-label="Identificador"
+    [p-value]="empresa.id">
+  </po-info>
+
+    <po-info class="po-sm-12 po-md-5"
+      p-label="Nome"
+      [p-value]="empresa.nome">
+    </po-info>
+
+    <po-info class="po-sm-12 po-md-5"
+    p-label="Nome Fantasia"
+    [p-value]="empresa.nomeFantasia">
+    </po-info>
+
+  </div>
+
+</po-page-detail>

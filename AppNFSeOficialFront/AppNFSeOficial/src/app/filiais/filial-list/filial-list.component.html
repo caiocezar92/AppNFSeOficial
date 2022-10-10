@@ -1,0 +1,40 @@
+<po-page-list
+  p-title="Filiais"
+  [p-filter]="">
+
+  <div class="po-row">
+    <div class="po-offset-lg-7 po-offset-xl-7 po-xl-2 po-lg-2 po-md-2 po-sm-12">
+      <po-combo
+      p-placeholder="Campo"
+      [p-options]="Options"
+      >
+      </po-combo>
+    </div>
+    <div class="po-xl-2 po-lg-2 po-md-2 po-sm-12">
+      <po-input name="input"
+      p-placeholder="Valor"
+      >
+      </po-input>
+    </div>
+    <div class="po-xl-1 po-lg-1 po-md-1 po-sm-12"
+      style= "padding-top: 8px">
+
+      <po-button (p-click)="onClickBusca()"
+      p-icon="po-icon po-icon-search">
+
+      </po-button>
+    </div>
+  </div>
+
+  <!-- Tabela para exibição dos dados -->
+  <po-table
+  p-sort="true"  
+  [p-columns]="columns"
+  [p-items]="filiais"
+  [p-loading]="loading"
+  [p-show-more-disabled]="!hasNext"
+  (p-show-more)="loadData()"
+  ></po-table>
+  <!-- p-sort adiciona ordenação de colunas -->
+
+</po-page-list>

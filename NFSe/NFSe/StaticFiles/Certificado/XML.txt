@@ -1,0 +1,13 @@
+<EnviarLoteRpsSincronoEnvio xmlns="http://www.abrasf.org.br/nfse.xsd">
+	<LoteRps Id="4" versao="2.02">
+		<NumeroLote>4</NumeroLote>
+		<CpfCnpj>
+			<Cnpj>24773186000180</Cnpj>
+		</CpfCnpj>
+		<InscricaoMunicipal>296403</InscricaoMunicipal>
+		<QuantidadeRps>1</QuantidadeRps>
+	  <ListaRps>  
+		{0}
+	</ListaRps>
+</LoteRps>
+</EnviarLoteRpsSincronoEnvio>

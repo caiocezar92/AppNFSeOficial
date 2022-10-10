@@ -1,0 +1,66 @@
+<Rps>
+  <InfDeclaracaoPrestacaoServico Id="NSe5120012477318600018056010000000220000000220">
+    <Rps Id="NSe5120012477318600018056010000000220000000220">
+      <IdentificacaoRps>
+        <Numero>220</Numero>
+        <Serie>10</Serie>
+        <Tipo>1</Tipo>
+      </IdentificacaoRps>
+      <DataEmissao>2020-01-31</DataEmissao>
+      <Status>1</Status>
+    </Rps>
+    <Competencia>2020-01-31</Competencia>
+    <Servico>
+      <Valores>
+        <ValorServicos>1.00</ValorServicos>
+        <ValorDeducoes>0</ValorDeducoes>
+        <ValorPis>0</ValorPis>
+        <ValorCofins>0</ValorCofins>
+        <ValorInss>0</ValorInss>
+        <ValorIr>0</ValorIr>
+        <ValorCsll>0</ValorCsll>
+        <ValorIss>0.00</ValorIss>
+        <Aliquota>0.00</Aliquota>
+      </Valores>
+      <IssRetido>2</IssRetido>
+      <ItemListaServico>0801</ItemListaServico>
+      <CodigoCnae>8520100</CodigoCnae>
+      <CodigoTributacaoMunicipio>08.01</CodigoTributacaoMunicipio>
+      <Discriminacao>Servico Rondonopolis</Discriminacao>
+      <CodigoMunicipio>5107602</CodigoMunicipio>
+      <CodigoPais>1058</CodigoPais>
+      <ExigibilidadeISS>1</ExigibilidadeISS>
+      <MunicipioIncidencia>5107602</MunicipioIncidencia>
+    </Servico>
+    <Prestador>
+      <CpfCnpj>
+        <Cnpj>24773186000180</Cnpj>
+      </CpfCnpj>
+      <InscricaoMunicipal>296403</InscricaoMunicipal>
+    </Prestador>
+    <Tomador>
+      <IdentificacaoTomador>
+        <CpfCnpj>
+          <Cpf>11623938660</Cpf>
+        </CpfCnpj>
+      </IdentificacaoTomador>
+      <RazaoSocial>Thiago Henrique Grugel</RazaoSocial>
+      <Endereco>
+        <Endereco>Rua Cliente</Endereco>
+        <Numero>10</Numero>
+        <Complemento>Compl Cliente</Complemento>
+        <Bairro>bairro cliente</Bairro>
+        <CodigoMunicipio>3106200</CodigoMunicipio>
+        <Uf>MG</Uf>
+        <CodigoPais>1058</CodigoPais>
+        <Cep>31050070</Cep>
+      </Endereco>
+      <Contato>
+        <Telefone>3199999999</Telefone>
+        <Email>thiago.grugel@totvs.com.br</Email>
+      </Contato>
+    </Tomador>
+    <OptanteSimplesNacional>2</OptanteSimplesNacional>
+    <IncentivoFiscal>2</IncentivoFiscal>
+  </InfDeclaracaoPrestacaoServico>
+</Rps>

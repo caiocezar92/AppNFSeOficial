@@ -1,0 +1,18 @@
+<po-page-list
+  p-title="Empresas"
+  [p-actions]="actions">
+
+  <!-- Tabela para exibição dos dados -->
+  <po-table #table
+  p-sort="true"  
+  p-checkbox
+  [p-columns]="columns"
+  [p-items]="empresas"
+  [p-loading]="loading"
+  [p-show-more-disabled]="!hasNext"
+  (p-show-more)="loadData()"
+  [p-actions]="tableActions">
+  </po-table>
+  <!-- p-sort adiciona ordenação de colunas -->
+
+</po-page-list>

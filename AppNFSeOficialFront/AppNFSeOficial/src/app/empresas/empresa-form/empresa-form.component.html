@@ -1,0 +1,26 @@
+<po-page-edit
+  [p-title]="title"
+  (p-save)="salvar()"
+  (p-cancel)="cancelar()"
+  [p-disable-submit]="formEmpresa.invalid">
+
+  <form #formEmpresa="ngForm">
+    <!-- NOVO INPUT -->
+    <po-input class="po-md-6"
+      name="nome"
+      [(ngModel)]="empresa.nome"
+      p-required
+      p-label="Nome"
+      [p-disabled]="isUpdateOperation">
+    </po-input>
+
+    <po-input class="po-md-6"
+      name="nomefantasia"
+      [(ngModel)]="empresa.nomeFantasia"
+      p-required 
+      p-label="Nome Fantasia">
+    </po-input>
+
+  </form>
+
+</po-page-edit>

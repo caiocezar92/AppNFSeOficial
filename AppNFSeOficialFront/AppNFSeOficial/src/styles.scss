@@ -1,0 +1,17 @@
+/* You can add global styles to this file, and also import other style files */
+
+.po-table-wrapper {
+    min-height: -moz-calc(100vh - 220px);
+    min-height: -webkit-calc(100vh - 220px);
+    min-height: calc(100vh - 220px);
+
+    // dimensionando a tabela para ocupar toda a tela
+}
+
+
+.po-table-footer > :first-child{
+
+    display:none; 
+    
+    // retira referencia do subtitulo no final da tela
+}
